@@ -4,6 +4,14 @@ Notable changes to WormsCursor. Roughly follows
 [Keep a Changelog](https://keepachangelog.com/); version numbers match the git tags and
 GitHub releases. The release workflow pulls the matching section into each release's notes.
 
+## 0.8.2 - 2026-06-30
+
+### Fixed
+- **Uninstalling now restores your real cursors.** Removing WormsCursor while it was running
+  left the themed cursors in place — you had to reset them by hand in Windows settings. The
+  uninstaller now stops the running tray instance and reloads the genuine cursor scheme before
+  the app is removed.
+
 ## 0.8.1 - 2026-06-15
 
 ### Fixed
