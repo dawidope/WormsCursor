@@ -74,6 +74,12 @@ plus a transparent one).
 
 ## Agent notifier
 
+<p align="center">
+  <img src="assets/agent-notifier.gif" width="640" alt="WormsCursor: a Claude logo charm sprouting off the cursor while Claude Code waits for input, then dropping off once you start typing">
+</p>
+
+_The Claude charm appears the moment Claude Code is waiting on you, and clears when you take over._
+
 When an AI coding agent needs your attention, the cursor **sprouts a small logo charm** that hangs
 and swings on the same pendulum as the busy ring / help "?" — one logo for the waiting tool, with a
 frameless **"+N"** when several agents wait at once. It's an ambient, peripheral-vision nudge: no
